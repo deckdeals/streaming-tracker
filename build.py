@@ -26,7 +26,7 @@ OUT = os.path.join(ROOT, "public")
 SITE_NAME = "What's New on Streaming"
 TAGLINE = "New streaming releases, season premieres, and what's on TV — updated daily."
 
-SITE_URL = (os.environ.get("SITE_URL") or "https://gamedeckdeals.github.io/streaming-tracker").rstrip("/")
+SITE_URL = (os.environ.get("SITE_URL") or "https://deckdeals.github.io/streaming-tracker").rstrip("/")
 ADSENSE_CLIENT = os.environ.get("ADSENSE_CLIENT", "").strip()
 GOOGLE_VERIFY = os.environ.get("GOOGLE_VERIFY", "").strip()
 
